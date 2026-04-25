@@ -116,6 +116,12 @@
 @media (max-width: 700px) {
   .navbar {
     padding: 0 1.25rem;
+    height: 60px;
+  }
+
+  .nav-logo {
+    height: 70px;
+    margin-top: 10px;
   }
 
   .menu-toggle {
@@ -134,6 +140,7 @@
     padding: 1rem 1.25rem;
     box-shadow: 0 8px 24px rgba(0,0,0,0.12);
     gap: 0.25rem;
+    z-index: 200;
   }
 
   .nav-links.open {

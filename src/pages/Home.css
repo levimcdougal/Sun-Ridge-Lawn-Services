@@ -607,6 +607,57 @@
   font-weight: 700;
 }
 
+@media (max-width: 768px) {
+  .hero {
+    min-height: 500px;
+    padding: 3rem 1.25rem 4rem;
+    background-size: cover;
+  }
+
+  .hero-content { max-width: 100%; }
+
+  .hero-actions { flex-direction: column; }
+
+  .hero-actions a { text-align: center; }
+
+  .services-section {
+    padding: 3rem 1.25rem;
+  }
+
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .reviews-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .stats-row {
+    padding: 1.25rem 1rem;
+  }
+
+  .stat {
+    padding: 0.5rem 0.75rem;
+    width: 100%;
+    text-align: center;
+  }
+
+  .stat-num {
+    font-size: 0.9rem;
+    justify-content: center;
+  }
+
+  .flower-strip { display: none; }
+
+  .areas-section { padding: 2.5rem 1.25rem; }
+
+  .cta-banner { padding: 3rem 1.25rem; }
+
+  .reviews-section { padding: 3rem 1.25rem; }
+
+  .about-section { padding: 2.5rem 1.25rem 3rem; }
+}
+
 /* ── CTA Banner ── */
 .cta-banner {
   background: linear-gradient(140deg, #f5c842, #e0b030);

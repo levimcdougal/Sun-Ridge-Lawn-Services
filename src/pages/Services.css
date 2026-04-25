@@ -261,6 +261,32 @@
   font-weight: 700;
 }
 
+@media (max-width: 768px) {
+  .services-hero {
+    padding: 3rem 1.25rem 3rem;
+  }
+
+  .svc-list {
+    padding: 2.5rem 1.25rem 3rem;
+  }
+
+  .svc-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .process-section {
+    padding: 3rem 1.25rem;
+  }
+
+  .areas-section {
+    padding: 2.5rem 1.25rem;
+  }
+
+  .svc-cta {
+    padding: 3rem 1.25rem;
+  }
+}
+
 /* CTA */
 .svc-cta {
   background: linear-gradient(140deg, #f5c842, #e0b030);
