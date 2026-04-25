@@ -162,7 +162,12 @@
     align-items: center;
   }
 
-  .step { max-width: 100%; width: 100%; }
+  .step {
+    max-width: 280px;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+  }
 
   .contact-cta {
     padding: 3rem 1.25rem;
