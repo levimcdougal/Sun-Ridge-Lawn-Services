@@ -51,7 +51,7 @@ function App() {
             <span>Daybreak · South Jordan · &amp; More</span>
           </div>
         </div>
-        <p className="footer-copy">&copy; {new Date().getFullYear()} Sun Ridge Lawn Services. All rights reserved.</p>
+        <p className="footer-copy">&copy; {new Date().getFullYear()} Sunridge Lawn Services. All rights reserved.</p>
       </footer>
     </BrowserRouter>
   )

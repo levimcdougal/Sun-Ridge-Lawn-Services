@@ -11,7 +11,7 @@ export default function Navbar() {
       {/* Main nav */}
       <nav className="navbar">
         <NavLink to="/" className="nav-brand">
-          <img src={logo} alt="Sun Ridge Lawn Services" className="nav-logo" />
+          <img src={logo} alt="Sunridge Lawn Services" className="nav-logo" />
         </NavLink>
 
         <button

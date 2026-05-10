@@ -51,7 +51,7 @@ export default function Home() {
           <p className="hero-eyebrow">Professional Lawn Care · Exceptional Results</p>
           <h1>Turn Your Yard Into a&nbsp;<em>Stunning Landscape</em></h1>
           <p className="hero-sub">
-            Sun Ridge Lawn Services brings professional-grade care to every corner of your property, from weekly mowing to full seasonal maintenance.
+            Sunridge Lawn Services brings professional-grade care to every corner of your property, from weekly mowing to full seasonal maintenance.
           </p>
           <div className="hero-actions">
             <Link to="/contact" className="btn-gold">Get a Free Estimate</Link>
@@ -100,7 +100,7 @@ export default function Home() {
         <div className="services-grid">
           {services.map((s) => (
             <div className="service-tile" key={s.title}>
-              {s.img && <img src={s.img} alt={s.title} className="tile-img-full" style={{ objectPosition: s.imgPosition || 'center' }} />}
+              {s.img && <img src={s.img} alt={s.title} className="tile-img-full" style={{ objectPosition: s.imgPosition || 'center' }} loading="lazy" decoding="async" />}
               {!s.img && <div className="tile-icon-wrap">{s.icon}</div>}
               <h3>{s.title}</h3>
               <p>{s.desc}</p>
@@ -119,10 +119,10 @@ export default function Home() {
         <div className="reviews-grid">
           <div className="review-card">
             <div className="review-stars">★★★★★</div>
-            <p className="review-text">"Sun Ridge does an amazing job every single week. My lawn has never looked better — always on time and super professional."</p>
+            <p className="review-text">"Sunridge does an amazing job every single week. My lawn has never looked better — always on time and super professional."</p>
             <div className="review-author">
               <span className="review-name">Sarah M.</span>
-              <span className="review-location">Sun Ridge, UT</span>
+              <span className="review-location">Sunridge, UT</span>
             </div>
           </div>
           <div className="review-card">
@@ -130,7 +130,7 @@ export default function Home() {
             <p className="review-text">"Hired them for a full cleanup and fertilizing program. The results were incredible. Highly recommend to anyone looking for reliable lawn care."</p>
             <div className="review-author">
               <span className="review-name">James T.</span>
-              <span className="review-location">Sun Ridge, UT</span>
+              <span className="review-location">Sunridge, UT</span>
             </div>
           </div>
           <div className="review-card">
@@ -138,7 +138,7 @@ export default function Home() {
             <p className="review-text">"Great communication, fair pricing, and the yard always looks fantastic. They go above and beyond every visit."</p>
             <div className="review-author">
               <span className="review-name">Linda K.</span>
-              <span className="review-location">Sun Ridge, UT</span>
+              <span className="review-location">Sunridge, UT</span>
             </div>
           </div>
         </div>
@@ -149,7 +149,7 @@ export default function Home() {
         <div className="flower-strip" ref={flowerRef}>
           {flowers.map((f, i) => (
             f === '🌸'
-              ? <img key={i} src={mowImg} alt="" className="flower flower-img" style={{ animationDelay: `${i * 0.1}s` }} />
+              ? <img key={i} src={mowImg} alt="" className="flower flower-img" style={{ animationDelay: `${i * 0.1}s` }} loading="lazy" />
               : f === '🌼'
               ? <img key={i} src={trowelImg} alt="" className="flower flower-img" style={{ animationDelay: `${i * 0.1}s` }} />
               : f === '🌺'

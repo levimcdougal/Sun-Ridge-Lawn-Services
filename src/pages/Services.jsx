@@ -20,7 +20,7 @@ import './Services.css'
 
 const services = [
   {
-    icon: <img src={mowingmImg} alt="Mowing" style={{ width: '80px', height: '80px', objectFit: 'contain' }} />,
+    icon: <img src={mowingmImg} alt="Mowing" style={{ width: '80px', height: '80px', objectFit: 'contain' }} loading="lazy" decoding="async" />,
     title: 'Mowing',
     description:
       'Clean, consistent cuts for a well-maintained lawn every visit. We adjust cut height seasonally to promote healthy turf.',
@@ -36,7 +36,7 @@ const services = [
     tag: null,
   },
   {
-    icon: <img src={trimminggImg} alt="Trimming" style={{ width: '80px', height: '80px', objectFit: 'contain' }} />,
+    icon: <img src={trimminggImg} alt="Trimming" style={{ width: '80px', height: '80px', objectFit: 'contain' }} loading="lazy" decoding="async" />,
     title: 'Trimming',
     description:
       'Neat trimming around trees, fences, and landscaping beds to keep every edge of your property looking sharp and tidy.',
@@ -52,7 +52,7 @@ const services = [
     tag: null,
   },
   {
-    icon: <img src={edgImg} alt="Edging" style={{ width: '80px', height: '80px', objectFit: 'contain' }} />,
+    icon: <img src={edgImg} alt="Edging" style={{ width: '80px', height: '80px', objectFit: 'contain' }} loading="lazy" decoding="async" />,
     title: 'Edging',
     description:
       'Crisp, defined edges along driveways, sidewalks, and curbs for a clean, professional finish that makes your lawn stand out.',
