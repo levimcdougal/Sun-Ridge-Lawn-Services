@@ -27,8 +27,8 @@ export default function Navbar() {
           <li><NavLink to="/services" onClick={() => setMenuOpen(false)}>Services</NavLink></li>
           <li><NavLink to="/contact" onClick={() => setMenuOpen(false)}>Contact</NavLink></li>
           <li>
-            <a href="tel:3855806111" className="nav-cta">
-              📞 385-580-6111
+            <a href="tel:8013853246" className="nav-cta">
+              📞 801-385-3246
             </a>
           </li>
         </ul>

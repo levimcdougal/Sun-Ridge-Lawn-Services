@@ -119,26 +119,30 @@ export default function Home() {
         <div className="reviews-grid">
           <div className="review-card">
             <div className="review-stars">★★★★★</div>
-            <p className="review-text">"Sunridge does an amazing job every single week. My lawn has never looked better — always on time and super professional."</p>
+            <p className="review-text">"Wish I could give more stars! They did an amazing job on my overgrown and weed filled yard. Communication is top notch! Quick response to my questions. For the amount of time it took to tame my yard, the price was more than reasonable. Highly recommend"</p>
             <div className="review-author">
-              <span className="review-name">Sarah M.</span>
-              <span className="review-location">Sunridge, UT</span>
+              <span className="review-name">Kelly C.</span>
             </div>
           </div>
           <div className="review-card">
             <div className="review-stars">★★★★★</div>
-            <p className="review-text">"Hired them for a full cleanup and fertilizing program. The results were incredible. Highly recommend to anyone looking for reliable lawn care."</p>
+            <p className="review-text">"Excellent service. Timely, responsive, and great attention to detail. They take pride in their work! They are my go to lawn service company."</p>
             <div className="review-author">
-              <span className="review-name">James T.</span>
-              <span className="review-location">Sunridge, UT</span>
+              <span className="review-name">Jason Alba</span>
             </div>
           </div>
           <div className="review-card">
             <div className="review-stars">★★★★★</div>
-            <p className="review-text">"Great communication, fair pricing, and the yard always looks fantastic. They go above and beyond every visit."</p>
+            <p className="review-text">"Super pleased with Sunridge Lawn Services! They did a fantastic job on my lawn, worked efficiently, and charged a fair price. The yard looks amazing now. Professional, friendly, and thorough — I highly recommend them!"</p>
             <div className="review-author">
-              <span className="review-name">Linda K.</span>
-              <span className="review-location">Sunridge, UT</span>
+              <span className="review-name">Matthew Simmers</span>
+            </div>
+          </div>
+          <div className="review-card">
+            <div className="review-stars">★★★★★</div>
+            <p className="review-text">"I don't usually accept door to door marketing but they were SO kind and reasonably priced that I gave them a shot. VERY impressed with their professionalism and how my yard looks."</p>
+            <div className="review-author">
+              <span className="review-name">Foster Johnson</span>
             </div>
           </div>
         </div>

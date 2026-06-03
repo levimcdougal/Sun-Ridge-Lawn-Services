@@ -42,7 +42,7 @@ function App() {
           </div>
           <div className="footer-col">
             <span className="footer-heading">Contact Us</span>
-            <a href="tel:3855806111" className="footer-contact-link"><Phone size={14} strokeWidth={1.5} /> 385-580-6111</a>
+            <a href="tel:8013853246" className="footer-contact-link"><Phone size={14} strokeWidth={1.5} /> 801-385-3246</a>
             <a href="mailto:sunridgelawnservices@gmail.com" className="footer-contact-link"><Mail size={14} strokeWidth={1.5} /> sunridgelawnservices@gmail.com</a>
           </div>
           <div className="footer-col">
