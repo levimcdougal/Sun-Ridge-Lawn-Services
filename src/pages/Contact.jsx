@@ -15,10 +15,10 @@ export default function Contact() {
 
       {/* Contact Cards */}
       <section className="contact-cards">
-        <a href="tel:8013853246" className="contact-card">
+        <a href="tel:8018080100" className="contact-card">
           <div className="contact-card-icon"><Phone size={32} strokeWidth={1.5} /></div>
           <h3>Call Us</h3>
-          <p className="contact-card-action">801-385-3246</p>
+          <p className="contact-card-action">801-808-0100</p>
           <p className="contact-card-note">Give us a call anytime during business hours and we'll be happy to chat about your lawn.</p>
         </a>
 
@@ -29,10 +29,10 @@ export default function Contact() {
           <p className="contact-card-note">Send us an email with your questions or details about your property and we'll follow up promptly.</p>
         </a>
 
-        <a href="sms:8013853246" className="contact-card">
+        <a href="sms:8018080100" className="contact-card">
           <div className="contact-card-icon"><MessageSquare size={32} strokeWidth={1.5} /></div>
           <h3>Text Us</h3>
-          <p className="contact-card-action">801-385-3246</p>
+          <p className="contact-card-action">801-808-0100</p>
           <p className="contact-card-note">Prefer to text? Send us a message and we'll respond quickly with answers or a free estimate.</p>
         </a>
       </section>
@@ -100,8 +100,8 @@ export default function Contact() {
         <h2>Ready for a Free Estimate?</h2>
         <p>No obligation, no hassle — just an honest quote for your lawn care needs.</p>
         <div className="contact-cta-btns">
-          <a href="tel:8013853246" className="btn-cta-gold">Call Now</a>
-          <a href="sms:8013853246" className="btn-cta-outline">Text Us</a>
+          <a href="tel:8018080100" className="btn-cta-gold">Call Now</a>
+          <a href="sms:8018080100" className="btn-cta-outline">Text Us</a>
         </div>
       </section>
 
